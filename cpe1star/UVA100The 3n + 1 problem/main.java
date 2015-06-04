@@ -3,10 +3,10 @@ class main{
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
 		while(sc.hasNextInt()){
-			int a = sc.nextInt(); // 結束值
-			int b = sc.nextInt(); // 起始值
+			int a = sc.nextInt();
+			int b = sc.nextInt();
 			System.out.print(a+" "+b+" ");
-			int best = 0; // 最大值
+			int best = 0;
 			if(a < 0 || a > 1000000) {
 				break;
 			}
